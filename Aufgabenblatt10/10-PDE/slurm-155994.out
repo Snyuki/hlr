@@ -1,0 +1,7 @@
+running: "mpirun -np 1 ./partdiff 1 1 256 1 1 1e-12" ...
+
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd-west9: error: *** JOB 155994 ON west9 CANCELLED AT 2022-12-16T16:33:49 ***
+srun: forcing job termination
+slurmstepd-west9: error: *** STEP 155994.0 ON west9 CANCELLED AT 2022-12-16T16:33:49 ***
