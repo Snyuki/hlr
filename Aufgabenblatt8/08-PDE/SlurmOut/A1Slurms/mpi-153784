@@ -1,0 +1,35 @@
+============================================================
+Program for calculation of partial differential equations.  
+============================================================
+(c) Dr. Thomas Ludwig, TU München.
+    Thomas A. Zochler, TU München.
+    Andreas C. Schmidt, TU München.
+============================================================
+
+[0] Allocated 6 with 5 rows and 1 neighbors
+[1] Allocated 5 with 4 rows and 1 neighbors
+ 0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000 
+ 0.0000  0.1065    -nan  0.2571    -nan  0.2571    -nan  0.1065  0.0000 
+ 0.0000    -nan  0.3401    -nan  0.4810    -nan  0.3401    -nan  0.0000 
+ 0.0000  0.2062    -nan  0.4978    -nan  0.4978    -nan  0.2062  0.0000 
+ 0.0000    -nan  0.2783    -nan  0.3936    -nan  0.2783    -nan  0.0000 
+[0] Displayed Statistics successfully...
+[0] Freed Matrices successfully...
+ 0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000 
+ 0.0000  0.0799    -nan  0.1929    -nan  0.1929    -nan  0.0799  0.0000 
+ 0.0000    -nan  0.2344    -nan  0.3314    -nan  0.2344    -nan  0.0000 
+ 0.0000  0.1096    -nan  0.2646    -nan  0.2646    -nan  0.1096  0.0000 
+free(): corrupted unsorted chunks
+[1] Displayed Statistics successfully...
+[1] Freed Matrices successfully...
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 473410 RUNNING AT west1
+=   EXIT CODE: 134
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

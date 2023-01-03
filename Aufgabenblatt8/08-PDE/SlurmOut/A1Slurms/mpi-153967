@@ -1,0 +1,81 @@
+============================================================
+Program for calculation of partial differential equations.  
+============================================================
+(c) Dr. Thomas Ludwig, TU München.
+    Thomas A. Zochler, TU München.
+    Andreas C. Schmidt, TU München.
+============================================================
+
+Lines = 4, Startline = 0, Endline = 3
+Im first rank 0, and I contain 5 lines
+Lines = 3, Startline = 4, Endline = 6
+Im middle rank 1, and I contain 5 lines
+Lines = 3, Startline = 7, Endline = 9
+Im middle rank 2, and I contain 5 lines
+Lines = 3, Startline = 10, Endline = 12
+Im middle rank 3, and I contain 5 lines
+Lines = 3, Startline = 13, Endline = 15
+Im middle rank 4, and I contain 5 lines
+Lines = 3, Startline = 16, Endline = 18
+Im middle rank 5, and I contain 5 lines
+Lines = 3, Startline = 19, Endline = 21
+Im middle rank 6, and I contain 5 lines
+Lines = 3, Startline = 22, Endline = 24
+Im last rank 7, and I contain 4 lines
+2.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.12500000 0.12500000 
+1.87500000    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 
+1.87500000 0.87500000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 
+
+2.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.12500000 1.08333333 1.04166667 0.12500000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.08333333 
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+1.87500000    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+
+1.87500000    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000    -nan 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.08333333 
+
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.00000000 
+1.95833333    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.08333333 
+1.91666667    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan 0.04166667 
+1.87500000 0.95833333 0.91666667 0.87500000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 
+

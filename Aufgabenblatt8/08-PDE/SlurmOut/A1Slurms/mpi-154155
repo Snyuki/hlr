@@ -1,0 +1,35 @@
+Lines = 3, Startline = 4, Endline = 6
+Im middle rank 1, and I contain 5 lines
+Lines = 3, Startline = 16, Endline = 18
+Im middle rank 5, and I contain 5 lines
+Lines = 3, Startline = 22, Endline = 24
+Im last rank 7, and I contain 4 lines
+============================================================
+Program for calculation of partial differential equations.  
+============================================================
+(c) Dr. Thomas Ludwig, TU München.
+    Thomas A. Zochler, TU München.
+    Andreas C. Schmidt, TU München.
+============================================================
+
+Lines = 4, Startline = 0, Endline = 3
+Im first rank 0, and I contain 5 lines
+Lines = 3, Startline = 7, Endline = 9
+Im middle rank 2, and I contain 5 lines
+Lines = 3, Startline = 10, Endline = 12
+Im middle rank 3, and I contain 5 lines
+Lines = 3, Startline = 13, Endline = 15
+Im middle rank 4, and I contain 5 lines
+Lines = 3, Startline = 19, Endline = 21
+Im middle rank 6, and I contain 5 lines
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 1285391 RUNNING AT west9
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Segmentation fault (signal 11)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

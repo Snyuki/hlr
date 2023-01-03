@@ -1,0 +1,44 @@
+============================================================
+Program for calculation of partial differential equations.  
+============================================================
+(c) Dr. Thomas Ludwig, TU München.
+    Thomas A. Zochler, TU München.
+    Andreas C. Schmidt, TU München.
+============================================================
+
+[0] Asked Params successfully...
+[0] Initialized Vairables successfully...
+[0] Allocated Matrices successfully...
+Rank 0: rows_in_memory = 5
+Rank 0: Matrix initialized
+Rank 0: Borders initialized
+[0] Initialized Matrices successfully...
+Matrix:
+ 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000[1] Asked Params successfully...
+[1] Initialized Vairables successfully...
+[1] Allocated Matrices successfully...
+Rank 1: rows_in_memory = 4
+Rank 1: Matrix initialized
+Rank 1: Borders initialized
+[1] Initialized Matrices successfully...
+[1] DisplayMatrix barrier reached...!
+[1] DisplayMatrix barrier reached...!
+
+[0] DisplayMatrix barrier reached...!
+ 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
+[0] DisplayMatrix barrier reached...!
+ 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
+[0] DisplayMatrix barrier reached...!
+[1] DisplayMatrix barrier reached...!
+malloc(): invalid size (unsorted)
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 339259 RUNNING AT west7
+=   EXIT CODE: 134
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

@@ -1,0 +1,18 @@
+============================================================
+Program for calculation of partial differential equations.  
+============================================================
+(c) Dr. Thomas Ludwig, TU München.
+    Thomas A. Zochler, TU München.
+    Andreas C. Schmidt, TU München.
+============================================================
+
+Lines = 5, Startline = 0, Endline = 4
+[0] Calculated start and end successfully...
+ 0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000 
+ 0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000 
+ 0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000 
+Lines = 4, Startline = 5, Endline = 8
+[1] Calculated start and end successfully...
+Abort(939139078) on node 1 (rank 1 in comm 0): Fatal error in internal_Recv: Invalid rank, error stack:
+internal_Recv(127): MPI_Recv(buf=0x7ffd912728dc, count=1, MPI_INT, 4, 0, MPI_COMM_WORLD, status=0x1) failed
+internal_Recv(78).: Invalid rank has value 4 but must be nonnegative and less than 2

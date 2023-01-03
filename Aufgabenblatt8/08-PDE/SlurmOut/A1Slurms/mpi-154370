@@ -1,0 +1,42 @@
+Rank 0 contains 4 valid lines, from index 0 to index 3
+Rank 0 allocates 5 lines, with 1 bufferlines
+Rank 0 calculates 3 lines, from local index 1 to local index 3
+Rank 5 contains 3 valid lines, from index 16 to index 18
+Rank 5 allocates 5 lines, with 2 bufferlines
+Rank 5 calculates 3 lines, from local index 1 to local index 3
+Rank 1 contains 3 valid lines, from index 4 to index 6
+Rank 1 allocates 5 lines, with 2 bufferlines
+Rank 1 calculates 3 lines, from local index 1 to local index 3
+Rank 2 contains 3 valid lines, from index 7 to index 9
+Rank 2 allocates 5 lines, with 2 bufferlines
+Rank 2 calculates 3 lines, from local index 1 to local index 3
+Rank 3 contains 3 valid lines, from index 10 to index 12
+Rank 3 allocates 5 lines, with 2 bufferlines
+Rank 3 calculates 3 lines, from local index 1 to local index 3
+Rank 4 contains 3 valid lines, from index 13 to index 15
+Rank 4 allocates 5 lines, with 2 bufferlines
+Rank 4 calculates 3 lines, from local index 1 to local index 3
+Rank 6 contains 3 valid lines, from index 19 to index 21
+Rank 6 allocates 5 lines, with 2 bufferlines
+Rank 6 calculates 3 lines, from local index 1 to local index 3
+Rank 7 contains 3 valid lines, from index 22 to index 24
+Rank 7 allocates 4 lines, with 1 bufferlines
+Rank 7 calculates 2 lines, from local index 1 to local index 2
+Berechnungszeit:    0.024778 s 
+Speicherbedarf:     0.009537 MiB
+Berechnungsmethode: Jacobi
+Interlines:         2
+Stoerfunktion:      f(x,y) = 2pi^2*sin(pi*x)sin(pi*y)
+Terminierung:       Anzahl der Iterationen
+Anzahl Iterationen: 1024
+Norm des Fehlers:   4.993788e-07
+
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 
+0.00000000 0.14663375 0.27094384 0.35400519 0.38317246 0.35400519 0.27094384 0.14663375 0.00000000 
+0.00000000 0.27094384 0.50063895 0.65411630 0.70801039 0.65411630 0.50063895 0.27094384 0.00000000 
+0.00000000 0.35400519 0.65411630 0.85464414 0.92506015 0.85464414 0.65411630 0.35400519 0.00000000 
+0.00000000 0.38317246 0.70801039 0.92506015 1.00127789 0.92506015 0.70801039 0.38317246 0.00000000 
+0.00000000 0.35400519 0.65411630 0.85464414 0.92506015 0.85464414 0.65411630 0.35400519 0.00000000 
+0.00000000 0.27094384 0.50063895 0.65411630 0.70801039 0.65411630 0.50063895 0.27094384 0.00000000 
+0.00000000 0.14663375 0.27094384 0.35400519 0.38317246 0.35400519 0.27094384 0.14663375 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 

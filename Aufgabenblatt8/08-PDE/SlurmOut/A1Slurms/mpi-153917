@@ -1,0 +1,33 @@
+============================================================
+Program for calculation of partial differential equations.  
+============================================================
+(c) Dr. Thomas Ludwig, TU München.
+    Thomas A. Zochler, TU München.
+    Andreas C. Schmidt, TU München.
+============================================================
+
+Lines = 256, Startline = 3337, Endline = 3592
+Lines = 256, Startline = 3849, Endline = 4104
+Lines = 256, Startline = 2569, Endline = 2824
+Lines = 256, Startline = 3081, Endline = 3336
+Lines = 257, Startline = 0, Endline = 256
+Lines = 257, Startline = 257, Endline = 513
+Lines = 257, Startline = 514, Endline = 770
+Lines = 257, Startline = 771, Endline = 1027
+Lines = 257, Startline = 1028, Endline = 1284
+Lines = 257, Startline = 1285, Endline = 1541
+Lines = 257, Startline = 1542, Endline = 1798
+Lines = 257, Startline = 1799, Endline = 2055
+Lines = 257, Startline = 2056, Endline = 2312
+Lines = 256, Startline = 2313, Endline = 2568
+Lines = 256, Startline = 2825, Endline = 3080
+Lines = 256, Startline = 3593, Endline = 3848
+ 1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000 
+ 1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000 
+ 1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000 
+ 1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000 
+ 1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000 
+ 1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000 
+ 1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000 
+ 1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000 
+ 1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000  1.0000 

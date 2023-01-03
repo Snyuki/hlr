@@ -1,0 +1,391 @@
+
+
+Starting Jacobi with FUNC_F0
+
+
+
+1 Processes
+
+Berechnungszeit:    0.000879 s 
+Speicherbedarf:     0.009537 MiB
+Berechnungsmethode: Jacobi
+Interlines:         2
+Stoerfunktion:      f(x,y) = 0
+Terminierung:       Anzahl der Iterationen
+Anzahl Iterationen: 1024
+Norm des Fehlers:   2.097391e-06
+
+Matrix:
+2.000000001.875000001.750000001.625000001.500000001.375000001.250000001.125000001.00000000
+1.875000001.749964251.624933941.499913691.374906581.249913691.124933940.999964250.87500000
+1.750000001.624933941.499877941.374840531.249827381.124840530.999877940.874933940.75000000
+1.625000001.499913691.374840531.249791631.124774470.999791630.874840530.749913690.62500000
+1.500000001.374906581.249827381.124774470.999755880.874774470.749827380.624906580.50000000
+1.375000001.249913691.124840530.999791630.874774470.749791630.624840530.499913690.37500000
+1.250000001.124933940.999877940.874840530.749827380.624840530.499877940.374933940.25000000
+1.125000000.999964250.874933940.749913690.624906580.499913690.374933940.249964250.12500000
+1.000000000.875000000.750000000.625000000.500000000.375000000.250000000.125000000.00000000
+
+
+2 Processes
+
+Lines = 13, Startline = 0, Endline = 12
+Rank 0 allocates 14 lines, with 1 bufferlines
+Rank 0 calculates 12 lines, from local index 1 to local index 12
+Lines = 12, Startline = 13, Endline = 24
+Rank 1 allocates 13 lines, with 1 bufferlines
+Rank 1 calculates 11 lines, from local index 1 to local index 11
+Berechnungszeit:    0.004830 s 
+Speicherbedarf:     0.009537 MiB
+Berechnungsmethode: Jacobi
+Interlines:         2
+Stoerfunktion:      f(x,y) = 0
+Terminierung:       Anzahl der Iterationen
+Anzahl Iterationen: 1024
+Norm des Fehlers:   2.108315e-06
+
+2.00000000 1.87500000 1.75000000 1.62500000 1.50000000 1.37500000 1.25000000 1.12500000 0.50000000 
+1.87500000 1.74819362 1.62037733 1.48992053 1.35356767 1.20437250 1.02665963 0.78040948 0.37500000 
+1.75000000 1.62232374 1.49319498 1.36026840 1.21888132 1.05935786 0.86242250 0.59696465 0.25000000 
+1.62500000 1.49780513 1.36953153 1.23843182 1.10098512 0.94958292 0.76709730 0.51348547 0.12500000 
+1.50000000 1.37430132 1.24850360 1.12245847 0.99586111 0.86790832 0.73581887 0.58289773 0.00000000 
+1.37500000 1.25091883 1.12775671 1.00704800 0.89196217 0.78946226 0.71581906 0.71616933 0.91666667 
+1.25000000 1.12672705 1.00482596 0.88658439 0.77672587 0.68547961 0.63447014 0.66223571 0.79166667 
+1.12500000 1.00130731 0.87860252 0.75853671 0.64454472 0.54425185 0.47538139 0.48309334 0.66666667 
+1.00000000 0.87500000 0.75000000 0.62500000 0.50000000 0.37500000 0.25000000 0.12500000 0.54166667 
+
+
+3 Processes
+
+Lines = 9, Startline = 0, Endline = 8
+Rank 0 allocates 10 lines, with 1 bufferlines
+Rank 0 calculates 8 lines, from local index 1 to local index 8
+Lines = 8, Startline = 9, Endline = 16
+Rank 1 allocates 10 lines, with 2 bufferlines
+Rank 1 calculates 8 lines, from local index 1 to local index 8
+Lines = 8, Startline = 17, Endline = 24
+Rank 2 allocates 9 lines, with 1 bufferlines
+Rank 2 calculates 7 lines, from local index 1 to local index 7
+Berechnungszeit:    0.006922 s 
+Speicherbedarf:     0.009537 MiB
+Berechnungsmethode: Jacobi
+Interlines:         2
+Stoerfunktion:      f(x,y) = 0
+Terminierung:       Anzahl der Iterationen
+Anzahl Iterationen: 1024
+Norm des Fehlers:   1.830586e-06
+
+2.00000000 1.87500000 1.75000000 1.62500000 1.50000000 1.37500000 1.25000000 1.12500000 0.33333333 
+1.87500000 1.74828074 1.62053708 1.49005348 1.35318106 1.20133944 1.01256825 0.72583502 0.20833333 
+1.75000000 1.62250478 1.49357965 1.36088672 1.21968733 1.05977968 0.85870062 0.56564598 0.08333333 
+1.62500000 1.49805601 1.37010282 1.23953806 1.10331222 0.95569985 0.78783234 0.59828927 0.66666667 
+1.50000000 1.37456103 1.24908284 1.12351803 0.99781321 0.87199381 0.74685694 0.62866218 0.54166667 
+1.37500000 1.25113260 1.12820078 1.00771177 0.89256583 0.78816940 0.70213478 0.62827379 0.41666667 
+1.25000000 1.12687415 1.00512143 0.88700515 0.77713803 0.68542428 0.63332183 0.67004622 0.95833333 
+1.12500000 1.00138338 0.87876166 0.75881679 0.64517438 0.54653868 0.48602039 0.53120683 0.83333333 
+1.00000000 0.87500000 0.75000000 0.62500000 0.50000000 0.37500000 0.25000000 0.12500000 0.70833333 
+
+
+4 Processes
+
+Lines = 7, Startline = 0, Endline = 6
+Rank 0 allocates 8 lines, with 1 bufferlines
+Rank 0 calculates 6 lines, from local index 1 to local index 6
+Lines = 6, Startline = 7, Endline = 12
+Rank 1 allocates 8 lines, with 2 bufferlines
+Rank 1 calculates 6 lines, from local index 1 to local index 6
+Lines = 6, Startline = 13, Endline = 18
+Rank 2 allocates 8 lines, with 2 bufferlines
+Rank 2 calculates 6 lines, from local index 1 to local index 6
+Lines = 6, Startline = 19, Endline = 24
+Rank 3 allocates 7 lines, with 1 bufferlines
+Rank 3 calculates 5 lines, from local index 1 to local index 5
+Berechnungszeit:    0.009555 s 
+Speicherbedarf:     0.009537 MiB
+Berechnungsmethode: Jacobi
+Interlines:         2
+Stoerfunktion:      f(x,y) = 0
+Terminierung:       Anzahl der Iterationen
+Anzahl Iterationen: 1024
+Norm des Fehlers:   1.496268e-06
+
+2.00000000 1.87500000 1.75000000 1.62500000 1.50000000 1.37500000 1.25000000 1.12500000 0.25000000 
+1.87500000 1.74834169 1.62067262 1.49029062 1.35353907 1.20163739 1.01098542 0.70959993 0.12500000 
+1.75000000 1.62261323 1.49382240 1.36132610 1.22046219 1.06131667 0.86317616 0.58534343 0.00000000 
+1.62500000 1.49818748 1.37039479 1.24005971 1.10420039 0.95719648 0.79010955 0.59735703 0.41666667 
+1.50000000 1.37468800 1.24935879 1.12399246 0.99857028 0.87309737 0.74752105 0.61757344 0.29166667 
+1.37500000 1.25123388 1.12841287 1.00805335 0.89307520 0.78905279 0.70539224 0.65542886 0.66666667 
+1.25000000 1.12694006 1.00525139 0.88718513 0.77730275 0.68525363 0.63055439 0.64146367 0.54166667 
+1.12500000 1.00141452 0.87881921 0.75888262 0.64519425 0.54641006 0.48616796 0.54043287 0.91666667 
+1.00000000 0.87500000 0.75000000 0.62500000 0.50000000 0.37500000 0.25000000 0.12500000 0.79166667 
+
+
+5 Processes
+
+Lines = 5, Startline = 5, Endline = 9
+Rank 1 allocates 7 lines, with 2 bufferlines
+Rank 1 calculates 5 lines, from local index 1 to local index 5
+Lines = 5, Startline = 10, Endline = 14
+Rank 2 allocates 7 lines, with 2 bufferlines
+Rank 2 calculates 5 lines, from local index 1 to local index 5
+Lines = 5, Startline = 15, Endline = 19
+Rank 3 allocates 7 lines, with 2 bufferlines
+Rank 3 calculates 5 lines, from local index 1 to local index 5
+Lines = 5, Startline = 0, Endline = 4
+Rank 0 allocates 6 lines, with 1 bufferlines
+Rank 0 calculates 4 lines, from local index 1 to local index 4
+Lines = 5, Startline = 20, Endline = 24
+Rank 4 allocates 6 lines, with 1 bufferlines
+Rank 4 calculates 4 lines, from local index 1 to local index 4
+Berechnungszeit:    0.010696 s 
+Speicherbedarf:     0.009537 MiB
+Berechnungsmethode: Jacobi
+Interlines:         2
+Stoerfunktion:      f(x,y) = 0
+Terminierung:       Anzahl der Iterationen
+Anzahl Iterationen: 1024
+Norm des Fehlers:   1.048697e-06
+
+2.00000000 1.87500000 1.75000000 1.62500000 1.50000000 1.37500000 1.25000000 1.12500000 0.16666667 
+1.87500000 1.74845431 1.62093079 1.49077743 1.35443462 1.20331830 1.01401341 0.71014916 0.04166667 
+1.75000000 1.62280784 1.49426203 1.36213424 1.22189951 1.06396472 0.86880807 0.60718314 0.33333333 
+1.62500000 1.49841678 1.37090071 1.24095025 1.10567274 0.95956189 0.79344738 0.59438752 0.20833333 
+1.50000000 1.37490658 1.24982738 1.12477447 0.99975588 0.87477447 0.74982738 0.62490658 0.50000000 
+1.37500000 1.25141060 1.12878035 1.00863302 0.89387621 0.79002138 0.70623367 0.65543986 0.79166667 
+1.25000000 1.12706005 1.00549385 0.88754682 0.77775526 0.68571634 0.63094781 0.64268475 0.66666667 
+1.12500000 1.00147419 0.87893710 0.75904996 0.64537855 0.54650908 0.48585448 0.53977934 0.95833333 
+1.00000000 0.87500000 0.75000000 0.62500000 0.50000000 0.37500000 0.25000000 0.12500000 0.83333333 
+
+
+6 Processes
+
+Lines = 5, Startline = 0, Endline = 4
+Rank 0 allocates 6 lines, with 1 bufferlines
+Rank 0 calculates 4 lines, from local index 1 to local index 4
+Lines = 4, Startline = 5, Endline = 8
+Rank 1 allocates 6 lines, with 2 bufferlines
+Rank 1 calculates 4 lines, from local index 1 to local index 4
+Lines = 4, Startline = 9, Endline = 12
+Rank 2 allocates 6 lines, with 2 bufferlines
+Rank 2 calculates 4 lines, from local index 1 to local index 4
+Lines = 4, Startline = 13, Endline = 16
+Rank 3 allocates 6 lines, with 2 bufferlines
+Rank 3 calculates 4 lines, from local index 1 to local index 4
+Lines = 4, Startline = 17, Endline = 20
+Rank 4 allocates 6 lines, with 2 bufferlines
+Rank 4 calculates 4 lines, from local index 1 to local index 4
+Lines = 4, Startline = 21, Endline = 24
+Rank 5 allocates 5 lines, with 1 bufferlines
+Rank 5 calculates 3 lines, from local index 1 to local index 3
+Berechnungszeit:    0.015128 s 
+Speicherbedarf:     0.009537 MiB
+Berechnungsmethode: Jacobi
+Interlines:         2
+Stoerfunktion:      f(x,y) = 0
+Terminierung:       Anzahl der Iterationen
+Anzahl Iterationen: 1024
+Norm des Fehlers:   1.058889e-06
+
+2.00000000 1.87500000 1.75000000 1.62500000 1.50000000 1.37500000 1.25000000 1.12500000 0.16666667 
+1.87500000 1.74839848 1.62080299 1.49053566 1.35398137 1.20241611 1.01206314 0.70613943 0.04166667 
+1.75000000 1.62271107 1.49404460 1.36173762 1.22120011 1.06269407 0.86626187 0.59976846 0.29166667 
+1.62500000 1.49830145 1.37064823 1.24051228 1.10496677 0.95847567 0.79204219 0.59807179 0.50000000 
+1.50000000 1.37479387 1.24958678 1.12437692 0.99916573 0.87397814 0.74888568 0.62239883 0.37500000 
+1.37500000 1.25131569 1.12858151 1.00831496 0.89342624 0.78944867 0.70549686 0.65017880 0.58333333 
+1.25000000 1.12699231 1.00535315 0.88732399 0.77743975 0.68530578 0.63063391 0.64802247 0.79166667 
+1.12500000 1.00143901 0.87886410 0.75893349 0.64520635 0.54623870 0.48522425 0.53615218 1.00000000 
+1.00000000 0.87500000 0.75000000 0.62500000 0.50000000 0.37500000 0.25000000 0.12500000 0.87500000 
+
+
+7 Processes
+
+Lines = 4, Startline = 0, Endline = 3
+Rank 0 allocates 5 lines, with 1 bufferlines
+Rank 0 calculates 3 lines, from local index 1 to local index 3
+Lines = 4, Startline = 4, Endline = 7
+Rank 1 allocates 6 lines, with 2 bufferlines
+Rank 1 calculates 4 lines, from local index 1 to local index 4
+Lines = 3, Startline = 16, Endline = 18
+Rank 4 allocates 5 lines, with 2 bufferlines
+Rank 4 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 19, Endline = 21
+Rank 5 allocates 5 lines, with 2 bufferlines
+Rank 5 calculates 3 lines, from local index 1 to local index 3
+Lines = 4, Startline = 8, Endline = 11
+Rank 2 allocates 6 lines, with 2 bufferlines
+Rank 2 calculates 4 lines, from local index 1 to local index 4
+Lines = 4, Startline = 12, Endline = 15
+Rank 3 allocates 6 lines, with 2 bufferlines
+Rank 3 calculates 4 lines, from local index 1 to local index 4
+Lines = 3, Startline = 22, Endline = 24
+Rank 6 allocates 4 lines, with 1 bufferlines
+Rank 6 calculates 2 lines, from local index 1 to local index 2
+Berechnungszeit:    0.016661 s 
+Speicherbedarf:     0.009537 MiB
+Berechnungsmethode: Jacobi
+Interlines:         2
+Stoerfunktion:      f(x,y) = 0
+Terminierung:       Anzahl der Iterationen
+Anzahl Iterationen: 1024
+Norm des Fehlers:   8.027753e-07
+
+2.00000000 1.87500000 1.75000000 1.62500000 1.50000000 1.37500000 1.25000000 1.12500000 0.12500000 
+1.87500000 1.74841424 1.62085049 1.49066062 1.35430085 1.20324012 1.01431896 0.71357326 0.00000000 
+1.75000000 1.62272836 1.49409925 1.36188527 1.22157536 1.06361165 0.86836752 0.60134549 0.20833333 
+1.62500000 1.49830234 1.37066005 1.24056192 1.10511280 0.95882884 0.79274072 0.59855681 0.41666667 
+1.50000000 1.37476919 1.24953119 1.12427340 0.99897274 0.87359516 0.74816532 0.62479421 0.62500000 
+1.37500000 1.25127117 1.12847363 1.00809508 0.89298561 0.78854414 0.70352444 0.64487759 0.50000000 
+1.25000000 1.12694521 1.00523770 0.88708680 0.77696941 0.68438406 0.62885649 0.64320077 0.66666667 
+1.12500000 1.00140911 0.87879071 0.75878338 0.64491335 0.54568391 0.48419070 0.53207502 0.79166667 
+1.00000000 0.87500000 0.75000000 0.62500000 0.50000000 0.37500000 0.25000000 0.12500000 0.91666667 
+
+
+8 Processes
+
+Lines = 4, Startline = 0, Endline = 3
+Rank 0 allocates 5 lines, with 1 bufferlines
+Rank 0 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 4, Endline = 6
+Rank 1 allocates 5 lines, with 2 bufferlines
+Rank 1 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 7, Endline = 9
+Rank 2 allocates 5 lines, with 2 bufferlines
+Rank 2 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 13, Endline = 15
+Rank 4 allocates 5 lines, with 2 bufferlines
+Rank 4 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 16, Endline = 18
+Rank 5 allocates 5 lines, with 2 bufferlines
+Rank 5 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 19, Endline = 21
+Rank 6 allocates 5 lines, with 2 bufferlines
+Rank 6 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 10, Endline = 12
+Rank 3 allocates 5 lines, with 2 bufferlines
+Rank 3 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 22, Endline = 24
+Rank 7 allocates 4 lines, with 1 bufferlines
+Rank 7 calculates 2 lines, from local index 1 to local index 2
+Berechnungszeit:    0.022517 s 
+Speicherbedarf:     0.009537 MiB
+Berechnungsmethode: Jacobi
+Interlines:         2
+Stoerfunktion:      f(x,y) = 0
+Terminierung:       Anzahl der Iterationen
+Anzahl Iterationen: 1024
+Norm des Fehlers:   8.088029e-07
+
+2.00000000 1.87500000 1.75000000 1.62500000 1.50000000 1.37500000 1.25000000 1.12500000 0.12500000 
+1.87500000 1.74842215 1.62085821 1.49064294 1.35418784 1.20283490 1.01301522 0.70928978 0.00000000 
+1.75000000 1.62275116 1.49413638 1.36190989 1.22151443 1.06328271 0.86739478 0.59996150 0.16666667 
+1.62500000 1.49834716 1.37074979 1.24069303 1.10526898 0.95896451 0.79273868 0.59630682 0.29166667 
+1.50000000 1.37483543 1.24967576 1.12452488 0.99938828 0.87428606 0.74927601 0.62374687 0.41666667 
+1.37500000 1.25134732 1.12864616 1.00841360 0.89355466 0.78959022 0.70563813 0.65087425 0.54166667 
+1.25000000 1.12701232 1.00539189 0.88737621 0.77749003 0.68531718 0.63051232 0.64569567 0.66666667 
+1.12500000 1.00144836 0.87888122 0.75895310 0.64521318 0.54618792 0.48494101 0.53283189 0.79166667 
+1.00000000 0.87500000 0.75000000 0.62500000 0.50000000 0.37500000 0.25000000 0.12500000 0.91666667 
+
+
+9 Processes
+
+Lines = 3, Startline = 0, Endline = 2
+Rank 0 allocates 4 lines, with 1 bufferlines
+Rank 0 calculates 2 lines, from local index 1 to local index 2
+Lines = 3, Startline = 3, Endline = 5
+Rank 1 allocates 5 lines, with 2 bufferlines
+Rank 1 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 9, Endline = 11
+Rank 3 allocates 5 lines, with 2 bufferlines
+Rank 3 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 15, Endline = 17
+Rank 5 allocates 5 lines, with 2 bufferlines
+Rank 5 calculates 3 lines, from local index 1 to local index 3
+Lines = 2, Startline = 21, Endline = 22
+Rank 7 allocates 4 lines, with 2 bufferlines
+Rank 7 calculates 2 lines, from local index 1 to local index 2
+Lines = 3, Startline = 6, Endline = 8
+Rank 2 allocates 5 lines, with 2 bufferlines
+Rank 2 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 12, Endline = 14
+Rank 4 allocates 5 lines, with 2 bufferlines
+Rank 4 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 18, Endline = 20
+Rank 6 allocates 5 lines, with 2 bufferlines
+Rank 6 calculates 3 lines, from local index 1 to local index 3
+Lines = 2, Startline = 23, Endline = 24
+Rank 8 allocates 3 lines, with 1 bufferlines
+Rank 8 calculates 1 lines, from local index 1 to local index 1
+Berechnungszeit:    0.023457 s 
+Speicherbedarf:     0.009537 MiB
+Berechnungsmethode: Jacobi
+Interlines:         2
+Stoerfunktion:      f(x,y) = 0
+Terminierung:       Anzahl der Iterationen
+Anzahl Iterationen: 1024
+Norm des Fehlers:   5.429836e-07
+
+2.00000000 1.87500000 1.75000000 1.62500000 1.50000000 1.37500000 1.25000000 1.12500000 0.08333333 
+1.87500000 1.74844628 1.62091884 1.49077398 1.35447376 1.20350303 1.01480690 0.71702509 0.20833333 
+1.75000000 1.62278821 1.49422732 1.36209835 1.22189694 1.06406362 0.86896921 0.60400364 0.33333333 
+1.62500000 1.49838165 1.37083097 1.24085020 1.10555777 0.95946979 0.79352816 0.59861623 0.45833333 
+1.50000000 1.37485591 1.24971936 1.12459652 0.99949338 0.87442474 0.74944219 0.62537266 0.58333333 
+1.37500000 1.25135110 1.12864706 1.00839351 0.89347401 0.78937852 0.70523850 0.65190209 0.70833333 
+1.25000000 1.12700540 1.00536667 0.88730197 0.77729606 0.68485054 0.62949287 0.64540264 0.83333333 
+1.12500000 1.00144100 0.87885780 0.75888936 0.64504825 0.54576039 0.48376569 0.53010959 0.91666667 
+1.00000000 0.87500000 0.75000000 0.62500000 0.50000000 0.37500000 0.25000000 0.12500000 0.95833333 
+
+
+10 Processes
+
+Lines = 3, Startline = 0, Endline = 2
+Rank 0 allocates 4 lines, with 1 bufferlines
+Rank 0 calculates 2 lines, from local index 1 to local index 2
+Lines = 3, Startline = 3, Endline = 5
+Rank 1 allocates 5 lines, with 2 bufferlines
+Rank 1 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 6, Endline = 8
+Rank 2 allocates 5 lines, with 2 bufferlines
+Rank 2 calculates 3 lines, from local index 1 to local index 3
+Lines = 3, Startline = 9, Endline = 11
+Rank 3 allocates 5 lines, with 2 bufferlines
+Rank 3 calculates 3 lines, from local index 1 to local index 3
+Lines = 2, Startline = 17, Endline = 18
+Rank 6 allocates 4 lines, with 2 bufferlines
+Rank 6 calculates 2 lines, from local index 1 to local index 2
+Lines = 2, Startline = 19, Endline = 20
+Rank 7 allocates 4 lines, with 2 bufferlines
+Rank 7 calculates 2 lines, from local index 1 to local index 2
+Lines = 2, Startline = 21, Endline = 22
+Rank 8 allocates 4 lines, with 2 bufferlines
+Rank 8 calculates 2 lines, from local index 1 to local index 2
+Lines = 2, Startline = 23, Endline = 24
+Rank 9 allocates 3 lines, with 1 bufferlines
+Rank 9 calculates 1 lines, from local index 1 to local index 1
+Lines = 3, Startline = 12, Endline = 14
+Rank 4 allocates 5 lines, with 2 bufferlines
+Rank 4 calculates 3 lines, from local index 1 to local index 3
+Lines = 2, Startline = 15, Endline = 16
+Rank 5 allocates 4 lines, with 2 bufferlines
+Rank 5 calculates 2 lines, from local index 1 to local index 2
+Berechnungszeit:    0.026926 s 
+Speicherbedarf:     0.009537 MiB
+Berechnungsmethode: Jacobi
+Interlines:         2
+Stoerfunktion:      f(x,y) = 0
+Terminierung:       Anzahl der Iterationen
+Anzahl Iterationen: 1024
+Norm des Fehlers:   5.445077e-07
+
+2.00000000 1.87500000 1.75000000 1.62500000 1.50000000 1.37500000 1.25000000 1.12500000 0.08333333 
+1.87500000 1.74842637 1.62087651 1.49070485 1.35437407 1.20337607 1.01467451 0.71693456 0.20833333 
+1.75000000 1.62275098 1.49414733 1.36196477 1.22169611 1.06378959 0.86865397 0.60376382 0.33333333 
+1.62500000 1.49833264 1.37072437 1.24066710 1.10526596 0.95902540 0.79291386 0.59801801 0.45833333 
+1.50000000 1.37480341 1.24960454 1.12439585 0.99915789 0.87384973 0.74840664 0.62367744 0.58333333 
+1.37500000 1.25130441 1.12854605 1.00822017 0.89318983 0.78888490 0.70419302 0.64828924 0.66666667 
+1.25000000 1.12697180 1.00529627 0.88719015 0.77714344 0.68468501 0.62943015 0.64481901 0.70833333 
+1.12500000 1.00142390 0.87882344 0.75884110 0.64500780 0.54582432 0.48433104 0.53284289 0.91666667 
+1.00000000 0.87500000 0.75000000 0.62500000 0.50000000 0.37500000 0.25000000 0.12500000 0.95833333 
+
+
+Starting Jacobi complex 
+

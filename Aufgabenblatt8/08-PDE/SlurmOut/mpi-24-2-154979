@@ -1,0 +1,91 @@
+Lines = 171, Startline = 172, Endline = 342
+Rank 1 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 514, Endline = 684
+Rank 3 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 685, Endline = 855
+Rank 4 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 1027, Endline = 1197
+Rank 6 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 1198, Endline = 1368
+Rank 7 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 1369, Endline = 1539
+Rank 8 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 1540, Endline = 1710
+Lines = 171, Startline = 2053, Endline = 2223
+Rank 12 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 2224, Endline = 2394
+Rank 13 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 2395, Endline = 2565
+Rank 14 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 2566, Endline = 2736
+Rank 15 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 2908, Endline = 3078
+Rank 17 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 3079, Endline = 3249
+Rank 18 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 3421, Endline = 3591
+Rank 20 allocates 173 lines, with 2 bufferlines
+Lines = 172, Startline = 0, Endline = 171
+Rank 0 allocates 173 lines, with 1 bufferlines
+Lines = 171, Startline = 343, Endline = 513
+Rank 2 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 856, Endline = 1026
+Rank 5 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 1711, Endline = 1881
+Rank 10 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 1882, Endline = 2052
+Rank 11 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 2737, Endline = 2907
+Rank 16 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 3250, Endline = 3420
+Rank 19 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 3592, Endline = 3762
+Rank 21 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 3763, Endline = 3933
+Rank 22 allocates 173 lines, with 2 bufferlines
+Lines = 171, Startline = 3934, Endline = 4104
+Rank 23 allocates 172 lines, with 1 bufferlines
+Rank 9 allocates 173 lines, with 2 bufferlines
+Rank 6 calculates 171 lines, from local index 1 to local index 171
+Rank 2 calculates 171 lines, from local index 1 to local index 171
+Rank 5 calculates 171 lines, from local index 1 to local index 171
+Rank 7 calculates 171 lines, from local index 1 to local index 171
+Rank 12 calculates 171 lines, from local index 1 to local index 171
+Rank 13 calculates 171 lines, from local index 1 to local index 171
+Rank 16 calculates 171 lines, from local index 1 to local index 171
+Rank 3 calculates 171 lines, from local index 1 to local index 171
+Rank 8 calculates 171 lines, from local index 1 to local index 171
+Rank 10 calculates 171 lines, from local index 1 to local index 171
+Rank 14 calculates 171 lines, from local index 1 to local index 171
+Rank 15 calculates 171 lines, from local index 1 to local index 171
+Rank 19 calculates 171 lines, from local index 1 to local index 171
+Rank 22 calculates 171 lines, from local index 1 to local index 171
+Rank 23 calculates 170 lines, from local index 1 to local index 170
+Rank 0 calculates 171 lines, from local index 1 to local index 171
+Rank 1 calculates 171 lines, from local index 1 to local index 171
+Rank 4 calculates 171 lines, from local index 1 to local index 171
+Rank 11 calculates 171 lines, from local index 1 to local index 171
+Rank 17 calculates 171 lines, from local index 1 to local index 171
+Rank 18 calculates 171 lines, from local index 1 to local index 171
+Rank 20 calculates 171 lines, from local index 1 to local index 171
+Rank 21 calculates 171 lines, from local index 1 to local index 171
+Rank 9 calculates 171 lines, from local index 1 to local index 171
+Berechnungszeit:    31.098987 s 
+Speicherbedarf:     257.126236 MiB
+Berechnungsmethode: Jacobi
+Interlines:         512
+Stoerfunktion:      f(x,y) = 2pi^2*sin(pi*x)sin(pi*y)
+Terminierung:       Anzahl der Iterationen
+Anzahl Iterationen: 1024
+Norm des Fehlers:   2.929037e-07
+
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 
+0.00000000 0.00004393 0.00008117 0.00010606 0.00011480 0.00010606 0.00008117 0.00004393 0.00000000 
+0.00000000 0.00008117 0.00014999 0.00019597 0.00021212 0.00019597 0.00014999 0.00008117 0.00000000 
+0.00000000 0.00010606 0.00019597 0.00025605 0.00027714 0.00025605 0.00019597 0.00010606 0.00000000 
+0.00000000 0.00011480 0.00021212 0.00027714 0.00029998 0.00027714 0.00021212 0.00011480 0.00000000 
+0.00000000 0.00010606 0.00019597 0.00025605 0.00027714 0.00025605 0.00019597 0.00010606 0.00000000 
+0.00000000 0.00008117 0.00014999 0.00019597 0.00021212 0.00019597 0.00014999 0.00008117 0.00000000 
+0.00000000 0.00004393 0.00008117 0.00010606 0.00011480 0.00010606 0.00008117 0.00004393 0.00000000 
+0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 
+

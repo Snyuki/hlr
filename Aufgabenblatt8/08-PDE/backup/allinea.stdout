@@ -1,0 +1,2 @@
+The local tree node (ddt-treeserver) exited with error code 1.
+slurmstepd-west9: error: *** JOB 154232 ON west9 CANCELLED AT 2022-12-09T16:27:33 DUE TO TIME LIMIT ***
