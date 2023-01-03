@@ -1,0 +1,60 @@
+
+BEFORE
+rank 0: 2
+rank 0: 5
+rank 0: 0
+
+BEFORE
+rank 1: 20
+rank 1: 12
+rank 1: 22
+
+BEFORE
+rank 2: 14
+rank 2: 0
+rank 2: 8
+
+BEFORE
+rank 3: 21
+rank 3: 24
+
+BEFORE
+rank 4: 1
+rank 4: 6
+
+AFTER
+rank 0: 20
+rank 0: 12
+rank 0: 22
+
+AFTER
+rank 1: 14
+rank 1: 0
+rank 1: 8
+
+AFTER
+rank 2: 21
+rank 2: 24
+
+AFTER
+rank 3: 1
+rank 3: 6
+
+AFTER
+rank 4: 2
+rank 4: 5
+rank 4: 0
+
+Iterations done: 4 (0 skipped), Abbruchwert (condition_element): 2
+corrupted size vs. prev_size
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 1246405 RUNNING AT west9
+=   EXIT CODE: 134
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

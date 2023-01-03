@@ -1,0 +1,48 @@
+
+BEFORE
+rank 0: 12
+rank 0: 16
+rank 0: 24
+
+BEFORE
+rank 1: 2
+rank 1: 15
+rank 1: 11
+
+BEFORE
+rank 2: 24
+rank 2: 8
+rank 2: 7
+
+BEFORE
+rank 3: 14
+rank 3: 12
+
+BEFORE
+rank 4: 14
+rank 4: 11
+
+AFTER
+rank 0: 2
+rank 0: 15
+rank 0: 11
+
+AFTER
+rank 1: 24
+rank 1: 8
+rank 1: 7
+
+AFTER
+rank 2: 14
+rank 2: 12
+
+AFTER
+rank 3: 14
+rank 3: 11
+
+AFTER
+rank 4: 12
+rank 4: 16
+rank 4: 24
+
+Iterations done: 4 (0 skipped), Abbruchwert (condition_element): 12

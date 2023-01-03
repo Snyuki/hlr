@@ -1,0 +1,18 @@
+==> Bootstrapping clingo from pre-built binaries
+==> Fetching https://mirror.spack.io/bootstrap/github-actions/v0.2/build_cache/linux-centos7-x86_64-gcc-10.2.1-clingo-bootstrap-spack-shqedxgvjnhiwdcdrvjhbd73jaevv7wt.spec.json
+==> Fetching https://mirror.spack.io/bootstrap/github-actions/v0.2/build_cache/linux-centos7-x86_64/gcc-10.2.1/clingo-bootstrap-spack/linux-centos7-x86_64-gcc-10.2.1-clingo-bootstrap-spack-shqedxgvjnhiwdcdrvjhbd73jaevv7wt.spack
+==> Installing "clingo-bootstrap@spack%gcc@10.2.1~docs~ipo+python+static_libstdcpp build_type=Release arch=linux-centos7-x86_64" from a buildcache
+==> Bootstrapping patchelf from pre-built binaries
+==> Bootstrapping patchelf@0.13.1:0.13.99 %gcc target=x86_64 from sources
+==> Installing patchelf-0.13.1-keis2fnogzviw2cmlh4gai5mwvb3d5kf
+==> No binary for patchelf-0.13.1-keis2fnogzviw2cmlh4gai5mwvb3d5kf found: installing from source
+==> Using cached archive: /opt/spack/20220821/var/spack/cache/_source-cache/archive/08/08c0237e89be74d61ddf8f6ff218439cdd62af572d568fb38913b53e222831de.tar.gz
+==> No patches needed for patchelf
+==> patchelf: Executing phase: 'autoreconf'
+==> patchelf: Executing phase: 'configure'
+==> patchelf: Executing phase: 'build'
+==> patchelf: Executing phase: 'install'
+==> patchelf: Successfully installed patchelf-0.13.1-keis2fnogzviw2cmlh4gai5mwvb3d5kf
+  Fetch: 0.11s.  Build: 15.38s.  Total: 15.49s.
+[+] /home/mueller2/.spack/bootstrap/store/linux-ubuntu20.04-x86_64/gcc-12.1.0/patchelf-0.13.1-keis2fnogzviw2cmlh4gai5mwvb3d5kf
+slurmstepd-west1: error: *** JOB 152151 ON west1 CANCELLED AT 2022-12-02T20:53:28 ***

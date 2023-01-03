@@ -1,0 +1,50 @@
+
+BEFORE
+rank 0: 0
+rank 0: 21
+rank 0: 12
+
+BEFORE
+rank 1: 16
+rank 1: 22
+rank 1: 16
+
+BEFORE
+rank 2: 3
+rank 2: 5
+rank 2: 4
+
+BEFORE
+rank 3: 18
+rank 3: 14
+rank 3: 1
+
+BEFORE
+rank 4: 3
+rank 4: 7
+rank 4: 12
+
+AFTER
+rank 0: 16
+rank 0: 22
+rank 0: 16
+
+AFTER
+rank 1: 3
+rank 1: 5
+rank 1: 4
+
+AFTER
+rank 2: 18
+rank 2: 14
+rank 2: 1
+
+AFTER
+rank 3: 3
+rank 3: 7
+rank 3: 12
+
+AFTER
+rank 4: 0
+rank 4: 21
+rank 4: 12

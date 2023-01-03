@@ -1,0 +1,65 @@
+
+
+[0] buf = 7, 4, 15, 12, 
+
+BEFORE
+rank 0: 7
+rank 0: 4
+rank 0: 15
+
+
+[1] buf = 18, 16, 15, 22, 
+
+BEFORE
+rank 1: 18
+rank 1: 16
+rank 1: 15
+
+
+[2] buf = 13, 24, 5, 1000000, 
+
+BEFORE
+rank 2: 13
+rank 2: 24
+rank 2: 5
+
+
+[3] buf = 24, 18, 9, 1000000, 
+
+BEFORE
+rank 3: 24
+rank 3: 18
+rank 3: 9
+
+
+[4] buf = 3, 7, 3, 1000000, 
+
+BEFORE
+rank 4: 3
+rank 4: 7
+rank 4: 3
+
+AFTER
+rank 0: 18
+rank 0: 16
+rank 0: 15
+
+AFTER
+rank 1: 13
+rank 1: 24
+rank 1: 5
+
+AFTER
+rank 2: 24
+rank 2: 18
+rank 2: 9
+
+AFTER
+rank 3: 3
+rank 3: 7
+rank 3: 3
+
+AFTER
+rank 4: 7
+rank 4: 4
+rank 4: 15

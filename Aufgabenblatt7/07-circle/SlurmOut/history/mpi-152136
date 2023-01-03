@@ -1,0 +1,22 @@
+
+BEFORE
+rank 0: 0
+rank 0: 1
+rank 0: 1
+
+BEFORE
+rank 1: 0
+rank 1: 0
+rank 1: 2
+
+AFTER
+rank 0: 0
+rank 0: 0
+rank 0: 2
+
+AFTER
+rank 1: 0
+rank 1: 1
+rank 1: 1
+
+Iterations done: 1 (0 skipped), condition_element: 0

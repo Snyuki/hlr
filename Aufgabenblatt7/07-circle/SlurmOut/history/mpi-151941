@@ -1,0 +1,13 @@
+[0] array[0] = 0, 1, 2, 3, 4, 
+[0] array[1] = [1] array[0] = 0, 1, 2, 3, 4, 
+[1] array[1] = 
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 395864 RUNNING AT west1
+=   EXIT CODE: 11
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Segmentation fault (signal 11)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

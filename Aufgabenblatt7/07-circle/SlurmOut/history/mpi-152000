@@ -1,0 +1,60 @@
+
+[0] true_bufsize = 4, bufsize: 3
+
+BEFORE
+rank 0: 3
+rank 0: 2
+rank 0: 6
+
+[1] true_bufsize = 4, bufsize: 3
+
+BEFORE
+rank 1: 8
+rank 1: 2
+rank 1: 8
+
+[2] true_bufsize = 3, bufsize: 3
+
+BEFORE
+rank 2: 11
+rank 2: 22
+rank 2: 11
+
+[3] true_bufsize = 3, bufsize: 3
+
+BEFORE
+rank 3: 21
+rank 3: 2
+rank 3: 3
+
+[4] true_bufsize = 3, bufsize: 3
+
+BEFORE
+rank 4: 9
+rank 4: 21
+rank 4: 6
+
+AFTER
+rank 0: 8
+rank 0: 2
+rank 0: 8
+
+AFTER
+rank 1: 11
+rank 1: 22
+rank 1: 11
+
+AFTER
+rank 2: 21
+rank 2: 2
+rank 2: 3
+
+AFTER
+rank 3: 9
+rank 3: 21
+rank 3: 6
+
+AFTER
+rank 4: 3
+rank 4: 2
+rank 4: 6

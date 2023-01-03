@@ -1,0 +1,28 @@
+
+BEFORE
+rank 0: 15
+rank 0: 19
+
+
+[0] buf = 
+BEFORE
+rank 1: 8
+rank 1: 20
+
+
+[1] buf = 15, 19, 0, 
+true_bufsize: 3, placeholder: 0
+8, 20, 0, 
+true_bufsize: 3, placeholder: 0
+
+AFTER
+rank 0: 8
+rank 0: 20
+rank 0: 0
+
+AFTER
+rank 1: 15
+rank 1: 19
+rank 1: 0
+
+Iterations: 1

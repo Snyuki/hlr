@@ -1,0 +1,60 @@
+Script started on 2022-12-02 23:25:05+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="195" LINES="55"]
+]0;mueller2@cluster: ~[01;32mmueller2@cluster[00m:[01;34m~[00m$ salloc[K[K[K[K[K[Kcat mpi[K[K[K[K[K[K[Kcd Aufgabenblatt7
+]0;mueller2@cluster: ~/Aufgabenblatt7[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7[00m$ cd 07-circle/
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ cat mpiscript.sh 
+#!/bin/sh
+
+#SBATCH --job-name=mpi-circle
+#SBATCH --output=SlurmOut/mpi-%j
+#SBATCH -p west
+
+# spack load scorep
+
+# srun make
+mpirun -np 5 ./circle 13
+# mpirun -np 5 ./a.out]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ 
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ salloc -p west -w west3
+salloc: Granted job allocation 152220
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ cat m[KMakefile
+CC = scorep mpicc
+CFLAGS = -std=c11 -pedantic -Wall -Wextra -O3 -ggdb -gdwarf-4 -g
+LFLAGS = $(CFLAGS)
+TGTS = circle
+
+all: $(TGTS)
+
+$(TGTS): %: %.c
+	$(CC) $(CFLAGS) -o $@ $<
+
+clean:
+	$(RM) $(TGTS)
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ spack load scorep
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ make[K[Kke
+scorep mpicc -std=c11 -pedantic -Wall -Wextra -O3 -ggdb -gdwarf-4 -g -o circle circle.c
+/usr/bin/ld: cannot find -lz
+collect2: error: ld returned 1 exit status
+[Score-P] ERROR: Execution failed: mpicc circle.scorep_init.o /opt/spack/20220821/opt/spack/linux-ubuntu20.04-x86_64/gcc-12.1.0/scorep-7.1-3a7l3gae74migegv4tvfshgaak733tqz/lib/scorep/scorep_compiler_gcc_plugin_begin.o circle_1670020016_303819.o /opt/spack/20220821/opt/spack/linux-ubuntu20.04-x86_64/gcc-12.1.0/scorep-7.1-3a7l3gae74migegv4tvfshgaak733tqz/lib/scorep/scorep_compiler_gcc_plugin_end.o `/opt/spack/20220821/opt/spack/linux-ubuntu20.04-x86_64/gcc-12.1.0/scorep-7.1-3a7l3gae74migegv4tvfshgaak733tqz/bin/scorep-config --thread=none --mpp=mpi --io=none --nocuda --noonline-access --noopencl --noopenacc --memory=libc --nokokkos --constructor` `/opt/spack/20220821/opt/spack/linux-ubuntu20.04-x86_64/gcc-12.1.0/scorep-7.1-3a7l3gae74migegv4tvfshgaak733tqz/bin/scorep-config --thread=none --mpp=mpi --io=none --nocuda --noonline-access --noopencl --noopenacc --memory=libc --nokokkos --ldflags`  -std=c11 -pedantic -Wall -Wextra -O3 -ggdb -gdwarf-4 -g -Wl,-start-group `/opt/spack/20220821/opt/spack/linux-ubuntu20.04-x86_64/gcc-12.1.0/scorep-7.1-3a7l3gae74migegv4tvfshgaak733tqz/bin/scorep-config --thread=none --mpp=mpi --io=none --nocuda --noonline-access --noopencl --noopenacc --memory=libc --nokokkos --event-libs`  `/opt/spack/20220821/opt/spack/linux-ubuntu20.04-x86_64/gcc-12.1.0/scorep-7.1-3a7l3gae74migegv4tvfshgaak733tqz/bin/scorep-config --thread=none --mpp=mpi --io=none --nocuda --noonline-access --noopencl --noopenacc --memory=libc --nokokkos --mgmt-libs` -Wl,-end-group -o circle
+make: *** [Makefile:9: circle] Error 1
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ export SCOREP_ENABLE_TRACING=TRUE
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ sbatch mpiscript.sh 
+Submitted batch job 152221
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ ----- Dis [K[Kd not generate any folder -----[C[C[C[C[1@ [1@v[1@a[1@m[1@p[1@i[1@e[1P[1@r[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C -----w -----i -----t -----h -----[C -----O -----u -----t -----p -----u -----t -----
+-----: command not found
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ make
+scorep mpicc -std=c11 -pedantic -Wall -Wextra -O3 -ggdb -gdwarf-4 -g -o circle circle.c
+/usr/bin/ld: cannot find -lz
+collect2: error: ld returned 1 exit status
+[Score-P] ERROR: Execution failed: mpicc circle.scorep_init.o /opt/spack/20220821/opt/spack/linux-ubuntu20.04-x86_64/gcc-12.1.0/scorep-7.1-3a7l3gae74migegv4tvfshgaak733tqz/lib/scorep/scorep_compiler_gcc_plugin_begin.o circle_1670020087_103335.o /opt/spack/20220821/opt/spack/linux-ubuntu20.04-x86_64/gcc-12.1.0/scorep-7.1-3a7l3gae74migegv4tvfshgaak733tqz/lib/scorep/scorep_compiler_gcc_plugin_end.o `/opt/spack/20220821/opt/spack/linux-ubuntu20.04-x86_64/gcc-12.1.0/scorep-7.1-3a7l3gae74migegv4tvfshgaak733tqz/bin/scorep-config --thread=none --mpp=mpi --io=none --nocuda --noonline-access --noopencl --noopenacc --memory=libc --nokokkos --constructor` `/opt/spack/20220821/opt/spack/linux-ubuntu20.04-x86_64/gcc-12.1.0/scorep-7.1-3a7l3gae74migegv4tvfshgaak733tqz/bin/scorep-config --thread=none --mpp=mpi --io=none --nocuda --noonline-access --noopencl --noopenacc --memory=libc --nokokkos --ldflags`  -std=c11 -pedantic -Wall -Wextra -O3 -ggdb -gdwarf-4 -g -Wl,-start-group `/opt/spack/20220821/opt/spack/linux-ubuntu20.04-x86_64/gcc-12.1.0/scorep-7.1-3a7l3gae74migegv4tvfshgaak733tqz/bin/scorep-config --thread=none --mpp=mpi --io=none --nocuda --noonline-access --noopencl --noopenacc --memory=libc --nokokkos --event-libs`  `/opt/spack/20220821/opt/spack/linux-ubuntu20.04-x86_64/gcc-12.1.0/scorep-7.1-3a7l3gae74migegv4tvfshgaak733tqz/bin/scorep-config --thread=none --mpp=mpi --io=none --nocuda --noonline-access --noopencl --noopenacc --memory=libc --nokokkos --mgmt-libs` -Wl,-end-group -o circle
+make: *** [Makefile:9: circle] Error 1
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ make----- Did not generate any folder with Output -----[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Psbatch mpiscript.sh 
+Submitted batch job 152222
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ [K]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ sbatch mpiscript.sh make[K----- Did not generate any folder with Output -----
+-----: command not found
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ s[Kexit
+exit
+salloc: Relinquishing job allocation 152220
+salloc: Job allocation 152220 has been revoked.
+]0;mueller2@cluster: ~/Aufgabenblatt7/07-circle[01;32mmueller2@cluster[00m:[01;34m~/Aufgabenblatt7/07-circle[00m$ exit
+exit
+
+Script done on 2022-12-02 23:29:58+01:00 [COMMAND_EXIT_CODE="127"]

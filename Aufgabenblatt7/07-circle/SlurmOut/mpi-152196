@@ -1,0 +1,90 @@
+==> Error: `spack load` requires Spack's shell support.
+  
+  To set up shell support, run the command below for your shell.
+  
+  For bash/zsh/sh:
+    . /opt/spack/20220821/share/spack/setup-env.sh
+  
+  For csh/tcsh:
+    source /opt/spack/20220821/share/spack/setup-env.csh
+  
+  For fish:
+    source /opt/spack/20220821/share/spack/setup-env.fish
+  
+  For Windows batch:
+    source /opt/spack/20220821/share/spack/spack_cmd.bat
+  
+  Or, if you do not want to use shell support, run one of these instead:
+  
+      eval `spack load --sh   scorep`  # bash/zsh/sh
+      eval `spack load --csh  scorep`  # csh/tcsh
+      eval `spack load --fish scorep`  # fish
+      eval `spack load --bat  scorep`  # batch
+  
+  If you have already set up Spack's shell support but still receive
+  this message, please make sure to call Spack via the `spack` command
+  without any path components (such as `bin/spack`).
+  
+srun: error: west9: task 0: Exited with exit code 1
+make: Nothing to be done for 'all'.
+
+BEFORE
+rank 0: 12
+rank 0: 14
+rank 0: 10
+
+BEFORE
+rank 1: 19
+rank 1: 13
+rank 1: 10
+
+BEFORE
+rank 2: 12
+rank 2: 19
+rank 2: 18
+
+BEFORE
+rank 3: 3
+rank 3: 15
+
+BEFORE
+rank 4: 0
+rank 4: 16
+
+AFTER
+rank 0: 3
+rank 0: 15
+
+AFTER
+rank 1: 0
+rank 1: 16
+
+AFTER
+rank 2: 12
+rank 2: 14
+rank 2: 10
+
+AFTER
+rank 3: 19
+rank 3: 13
+rank 3: 10
+
+AFTER
+rank 4: 12
+rank 4: 19
+rank 4: 18
+
+Iterations done: 2 (2 skipped), Abbruchwert (condition_element): 12
+corrupted size vs. prev_size
+corrupted size vs. prev_size
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 1244999 RUNNING AT west9
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Terminated (signal 15)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

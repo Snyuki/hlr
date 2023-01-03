@@ -1,0 +1,24 @@
+
+BEFORE
+rank 0: 22
+rank 0: 2
+
+BEFORE
+rank 1: 12
+
+
+[1] buf = 22, 2, 
+true_bufsize: 2, placeholder: 0
+
+
+[0] buf = 12, -1, 
+true_bufsize: 1, placeholder: 1
+
+AFTER
+rank 0: 12
+
+AFTER
+rank 1: 22
+rank 1: 2
+
+Iterations: 1

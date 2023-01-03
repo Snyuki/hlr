@@ -1,0 +1,33 @@
+==> Error: `spack load` requires Spack's shell support.
+  
+  To set up shell support, run the command below for your shell.
+  
+  For bash/zsh/sh:
+    . /opt/spack/20220821/share/spack/setup-env.sh
+  
+  For csh/tcsh:
+    source /opt/spack/20220821/share/spack/setup-env.csh
+  
+  For fish:
+    source /opt/spack/20220821/share/spack/setup-env.fish
+  
+  For Windows batch:
+    source /opt/spack/20220821/share/spack/spack_cmd.bat
+  
+  Or, if you do not want to use shell support, run one of these instead:
+  
+      eval `spack load --sh   scorep`  # bash/zsh/sh
+      eval `spack load --csh  scorep`  # csh/tcsh
+      eval `spack load --fish scorep`  # fish
+      eval `spack load --bat  scorep`  # batch
+  
+  If you have already set up Spack's shell support but still receive
+  this message, please make sure to call Spack via the `spack` command
+  without any path components (such as `bin/spack`).
+  
+srun: error: west1: task 0: Exited with exit code 1
+[proxy:0:0@west1] HYDU_create_process (utils/launch/launch.c:73): execvp error on file /home/mueller2/Aufgabenblatt7/07-circle/circle (No such file or directory)
+[proxy:0:0@west1] HYDU_create_process (utils/launch/launch.c:73): execvp error on file /home/mueller2/Aufgabenblatt7/07-circle/circle (No such file or directory)
+[proxy:0:0@west1] HYDU_create_process (utils/launch/launch.c:73): execvp error on file /home/mueller2/Aufgabenblatt7/07-circle/circle (No such file or directory)
+[proxy:0:0@west1] HYDU_create_process (utils/launch/launch.c:73): execvp error on file /home/mueller2/Aufgabenblatt7/07-circle/circle (No such file or directory)
+[proxy:0:0@west1] HYDU_create_process (utils/launch/launch.c:73): execvp error on file /home/mueller2/Aufgabenblatt7/07-circle/circle (No such file or directory)

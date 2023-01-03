@@ -1,0 +1,29 @@
+
+BEFORE
+rank 0: 0
+rank 0: 5
+rank 0: 7
+
+BEFORE
+rank 1: 19
+rank 1: 11
+rank 1: 3
+
+BEFORE
+rank 2: 5
+rank 2: 10
+rank 2: 3
+malloc(): invalid next size (unsorted)
+malloc(): invalid next size (unsorted)
+malloc(): invalid next size (unsorted)
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 1241483 RUNNING AT west9
+=   EXIT CODE: 134
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

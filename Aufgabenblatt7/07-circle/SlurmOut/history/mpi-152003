@@ -1,0 +1,70 @@
+perfect_distribution: 0
+2
+
+[0] true_bufsize = 4, bufsize: 3, perfect_distr.: 0
+
+BEFORE
+rank 0: 8
+rank 0: 20
+rank 0: 16
+perfect_distribution: 0
+2
+
+[1] true_bufsize = 4, bufsize: 3, perfect_distr.: 0
+
+BEFORE
+rank 1: 4
+rank 1: 18
+rank 1: 17
+perfect_distribution: 0
+2
+
+[2] true_bufsize = 3, bufsize: 3, perfect_distr.: 0
+
+BEFORE
+rank 2: 13
+rank 2: 19
+rank 2: 2
+perfect_distribution: 0
+2
+
+[3] true_bufsize = 3, bufsize: 3, perfect_distr.: 0
+
+BEFORE
+rank 3: 10
+rank 3: 16
+rank 3: 21
+perfect_distribution: 0
+2
+
+[4] true_bufsize = 3, bufsize: 3, perfect_distr.: 0
+
+BEFORE
+rank 4: 11
+rank 4: 23
+rank 4: 8
+
+AFTER
+rank 0: 4
+rank 0: 18
+rank 0: 17
+
+AFTER
+rank 1: 13
+rank 1: 19
+rank 1: 2
+
+AFTER
+rank 2: 10
+rank 2: 16
+rank 2: 21
+
+AFTER
+rank 3: 11
+rank 3: 23
+rank 3: 8
+
+AFTER
+rank 4: 8
+rank 4: 20
+rank 4: 16

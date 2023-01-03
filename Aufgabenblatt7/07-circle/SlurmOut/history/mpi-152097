@@ -1,0 +1,90 @@
+
+BEFORE
+rank 0: 1
+
+BEFORE
+rank 1: 19
+
+BEFORE
+rank 2: 14
+
+BEFORE
+rank 3: 5
+
+BEFORE
+rank 4: 2
+
+BEFORE
+rank 5: 7
+
+BEFORE
+rank 6: 20
+
+BEFORE
+rank 7: 3
+
+
+[0] buf = 19, 
+true_bufsize: 2, placeholder: 0
+
+
+[1] buf = 14, 
+true_bufsize: 2, placeholder: 0
+
+
+[2] buf = 5, 
+true_bufsize: 2, placeholder: 0
+
+
+[3] buf = 2, 
+true_bufsize: 2, placeholder: 0
+
+
+[4] buf = 7, 
+true_bufsize: 2, placeholder: 0
+
+
+[6] buf = 3, 
+true_bufsize: 2, placeholder: 0
+
+AFTER
+rank 0: 19
+rank 0: 0
+
+AFTER
+rank 1: 14
+rank 1: 0
+
+
+[5] buf = 20, 
+true_bufsize: 2, placeholder: 0
+
+
+[7] buf = 1, 
+true_bufsize: 2, placeholder: 0
+
+AFTER
+rank 2: 5
+rank 2: 0
+
+AFTER
+rank 3: 2
+rank 3: 0
+
+AFTER
+rank 4: 7
+rank 4: 0
+
+AFTER
+rank 5: 20
+rank 5: 0
+
+AFTER
+rank 6: 3
+rank 6: 0
+
+AFTER
+rank 7: 1
+rank 7: 0
+
+Iterations: 7

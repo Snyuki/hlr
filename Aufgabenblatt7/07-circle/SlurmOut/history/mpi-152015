@@ -1,0 +1,68 @@
+
+BEFORE
+rank 0: 6
+rank 0: 22
+rank 0: 0
+rank 0: 3
+rank 0: 13
+
+BEFORE
+rank 1: 5
+rank 1: 20
+rank 1: 23
+rank 1: 0
+rank 1: 22
+
+BEFORE
+rank 3: 24
+rank 3: 16
+rank 3: 14
+rank 3: 2
+
+BEFORE
+rank 2: 7
+rank 2: 20
+rank 2: 5
+rank 2: 22
+rank 2: 20
+
+BEFORE
+rank 4: 19
+rank 4: 3
+rank 4: 5
+rank 4: 18
+
+AFTER
+rank 0: 5
+rank 0: 20
+rank 0: 23
+rank 0: 0
+rank 0: 22
+
+Iterations: 3
+
+AFTER
+rank 2: 24
+rank 2: 16
+rank 2: 14
+rank 2: 2
+
+AFTER
+rank 3: 19
+rank 3: 3
+rank 3: 5
+rank 3: 18
+
+AFTER
+rank 1: 7
+rank 1: 20
+rank 1: 5
+rank 1: 22
+rank 1: 20
+
+AFTER
+rank 4: 6
+rank 4: 22
+rank 4: 0
+rank 4: 3
+rank 4: 13

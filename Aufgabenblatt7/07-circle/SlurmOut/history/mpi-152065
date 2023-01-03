@@ -1,0 +1,59 @@
+
+BEFORE
+rank 0: 7
+rank 0: 0
+rank 0: 8
+rank 0: 13
+rank 0: 8
+rank 0: 18
+
+BEFORE
+rank 1: 16
+rank 1: 0
+rank 1: 11
+rank 1: 2
+rank 1: 11
+rank 1: 15
+
+BEFORE
+rank 2: 19
+rank 2: 16
+rank 2: 10
+rank 2: 20
+rank 2: 14
+
+
+[0] buf = 16, 0, 11, 2, 11, 15, 
+true_bufsize: 5, placeholder: 0
+
+
+[1] buf = 19, 16, 10, 20, 14, -1, 
+true_bufsize: 6, placeholder: 1
+
+
+[2] buf = 7, 0, 8, 13, 8, 18, 
+true_bufsize: 5, placeholder: 0
+
+AFTER
+rank 0: 16
+rank 0: 0
+rank 0: 11
+rank 0: 2
+rank 0: 11
+
+AFTER
+rank 1: 19
+rank 1: 16
+rank 1: 10
+rank 1: 20
+rank 1: 14
+rank 1: -1
+
+AFTER
+rank 2: 7
+rank 2: 0
+rank 2: 8
+rank 2: 13
+rank 2: 8
+
+Iterations: 2

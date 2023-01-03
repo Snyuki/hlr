@@ -1,0 +1,66 @@
+
+BEFORE
+rank 0: 10
+rank 0: 13
+rank 0: 23
+
+BEFORE
+rank 1: 15
+rank 1: 20
+rank 1: 18
+
+BEFORE
+rank 2: 22
+rank 2: 18
+rank 2: 22
+
+BEFORE
+rank 3: 14
+rank 3: 14
+
+BEFORE
+rank 4: 3
+rank 4: 9
+
+AFTER
+rank 0: 15
+rank 0: 20
+rank 0: 18
+
+AFTER
+rank 1: 22
+rank 1: 18
+rank 1: 22
+
+AFTER
+rank 2: 14
+rank 2: 14
+
+AFTER
+rank 3: 3
+rank 3: 9
+
+AFTER
+rank 4: 10
+rank 4: 13
+rank 4: 23
+
+Iterations done: 4 (0 skipped), Abbruchwert (condition_element): 10
+rank[0]:	 frequency = 2666788114 Hz
+rank[1]:	 frequency = 2666787165 Hz
+rank[2]:	 frequency = 2666811071 Hz
+rank[3]:	 frequency = 2666836757 Hz (outlier)
+rank[4]:	 frequency = 2666787072 Hz
+[Score-P] src/services/timer/SCOREP_Timer.c:390: Warning: Calculated timer (tsc) frequencies differ from average frequency (2666802035 Hz) by more than 26668 Hz. Consider using a timer with a fixed frequency like gettimeofday or clock_gettime. Prolonging the measurement duration might mitigate the frequency variations.
+corrupted size vs. prev_size
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 413392 RUNNING AT west1
+=   EXIT CODE: 134
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

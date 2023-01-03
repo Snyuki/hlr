@@ -1,0 +1,78 @@
+==> Error: `spack load` requires Spack's shell support.
+  
+  To set up shell support, run the command below for your shell.
+  
+  For bash/zsh/sh:
+    . /opt/spack/20220821/share/spack/setup-env.sh
+  
+  For csh/tcsh:
+    source /opt/spack/20220821/share/spack/setup-env.csh
+  
+  For fish:
+    source /opt/spack/20220821/share/spack/setup-env.fish
+  
+  For Windows batch:
+    source /opt/spack/20220821/share/spack/spack_cmd.bat
+  
+  Or, if you do not want to use shell support, run one of these instead:
+  
+      eval `spack load --sh   scorep`  # bash/zsh/sh
+      eval `spack load --csh  scorep`  # csh/tcsh
+      eval `spack load --fish scorep`  # fish
+      eval `spack load --bat  scorep`  # batch
+  
+  If you have already set up Spack's shell support but still receive
+  this message, please make sure to call Spack via the `spack` command
+  without any path components (such as `bin/spack`).
+  
+scorep mpicc -std=c11 -pedantic -Wall -Wextra -O3 -ggdb -gdwarf-4 -g -o circle circle.c
+make: scorep: Command not found
+make: *** [Makefile:9: circle] Error 127
+
+BEFORE
+rank 0: 9
+rank 0: 4
+rank 0: 23
+
+BEFORE
+rank 1: 1
+rank 1: 0
+rank 1: 21
+
+BEFORE
+rank 2: 4
+rank 2: 16
+rank 2: 1
+
+BEFORE
+rank 3: 11
+rank 3: 1
+
+BEFORE
+rank 4: 0
+rank 4: 12
+
+AFTER
+rank 0: 1
+rank 0: 0
+rank 0: 21
+
+AFTER
+rank 1: 4
+rank 1: 16
+rank 1: 1
+
+AFTER
+rank 2: 11
+rank 2: 1
+
+AFTER
+rank 3: 0
+rank 3: 12
+
+AFTER
+rank 4: 9
+rank 4: 4
+rank 4: 23
+
+Iterations done: 4 (0 skipped), condition_element: 9

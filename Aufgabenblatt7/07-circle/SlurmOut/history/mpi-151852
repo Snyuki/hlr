@@ -1,0 +1,44 @@
+
+BEFORE
+rank 0: 20
+rank 0: 0
+rank 0: 23
+
+BEFORE
+rank 1: 5
+rank 1: 6
+rank 1: 4
+
+BEFORE
+rank 2: 4
+rank 2: 5
+rank 2: 12
+
+AFTER
+rank 0: 5
+rank 0: 6
+rank 0: 4
+
+AFTER
+rank 1: 4
+rank 1: 5
+rank 1: 12
+
+AFTER
+rank 2: 20
+rank 2: 0
+rank 2: 23
+free(): corrupted unsorted chunks
+free(): corrupted unsorted chunks
+free(): corrupted unsorted chunks
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 393602 RUNNING AT west1
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Terminated (signal 15)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

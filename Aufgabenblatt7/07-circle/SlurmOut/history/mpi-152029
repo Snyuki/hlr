@@ -1,0 +1,20 @@
+
+BEFORE
+rank 0: 23
+rank 0: 15
+rank 0: 15
+Abort(200956929) on node 0 (rank 0 in comm 0): Fatal error in internal_Ssend: Invalid buffer pointer, error stack:
+internal_Ssend(122): MPI_Ssend(buf=(nil), count=1, MPI_INT, 1, 0, MPI_COMM_WORLD) failed
+internal_Ssend(76).: Null buffer pointer
+Abort(737812481) on node 1 (rank 1 in comm 0): Fatal error in internal_Recv: Invalid buffer pointer, error stack:
+internal_Recv(127): MPI_Recv(buf=(nil), count=1, MPI_INT, 0, 0, MPI_COMM_WORLD, status=0x1) failed
+internal_Recv(76).: Null buffer pointer
+Abort(804921345) on node 2 (rank 2 in comm 0): Fatal error in internal_Recv: Invalid buffer pointer, error stack:
+internal_Recv(127): MPI_Recv(buf=(nil), count=1, MPI_INT, 1, 0, MPI_COMM_WORLD, status=0x1) failed
+internal_Recv(76).: Null buffer pointer
+Abort(872030209) on node 3 (rank 3 in comm 0): Fatal error in internal_Recv: Invalid buffer pointer, error stack:
+internal_Recv(127): MPI_Recv(buf=(nil), count=1, MPI_INT, 2, 0, MPI_COMM_WORLD, status=0x1) failed
+internal_Recv(76).: Null buffer pointer
+Abort(939139073) on node 4 (rank 4 in comm 0): Fatal error in internal_Recv: Invalid buffer pointer, error stack:
+internal_Recv(127): MPI_Recv(buf=(nil), count=1, MPI_INT, 3, 0, MPI_COMM_WORLD, status=0x1) failed
+internal_Recv(76).: Null buffer pointer

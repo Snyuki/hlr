@@ -1,0 +1,35 @@
+
+BEFORE
+rank 0: 17
+rank 0: 0
+rank 0: 16
+
+BEFORE
+rank 1: 17
+rank 1: 22
+rank 1: 8
+
+BEFORE
+rank 2: 5
+rank 2: 0
+rank 2: 22
+
+BEFORE
+rank 3: 14
+rank 3: 23
+
+BEFORE
+rank 4: 16
+rank 4: 8
+circle: malloc.c:4036: _int_malloc: Assertion `(unsigned long) (size) >= (unsigned long) (nb)' failed.
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 196847 RUNNING AT west4
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Terminated (signal 15)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

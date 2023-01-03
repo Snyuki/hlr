@@ -1,0 +1,58 @@
+
+BEFORE
+rank 0: 23
+
+BEFORE
+rank 1: 0
+
+BEFORE
+rank 2: 14
+
+BEFORE
+rank 3: 18
+
+BEFORE
+rank 4: 20
+
+BEFORE
+rank 5: 19
+
+BEFORE
+rank 6: 6
+
+BEFORE
+rank 7: 16
+true_bufsize: 1, placeholder: 0
+true_bufsize: 1, placeholder: 0
+true_bufsize: 1, placeholder: 0
+true_bufsize: 1, placeholder: 0
+true_bufsize: 1, placeholder: 0
+true_bufsize: 1, placeholder: 0
+
+AFTER
+rank 0: 0
+
+AFTER
+rank 1: 14
+
+AFTER
+rank 2: 18
+
+AFTER
+rank 3: 20
+true_bufsize: 1, placeholder: 0
+
+AFTER
+rank 4: 19
+true_bufsize: 1, placeholder: 0
+
+AFTER
+rank 7: 23
+
+AFTER
+rank 5: 6
+
+AFTER
+rank 6: 16
+
+Iterations: 7

@@ -1,0 +1,127 @@
+
+BEFORE
+rank 0: 19
+rank 0: 7
+rank 0: 2
+rank 0: 23
+rank 0: 5
+
+BEFORE
+rank 1: 16
+rank 1: 15
+rank 1: 23
+rank 1: 18
+
+BEFORE
+rank 2: 10
+rank 2: 6
+rank 2: 14
+rank 2: 1
+
+BEFORE
+rank 3: 1
+rank 3: 4
+rank 3: 13
+rank 3: 23
+
+BEFORE
+rank 4: 19
+rank 4: 1
+rank 4: 18
+rank 4: 12
+
+BEFORE
+rank 5: 10
+rank 5: 24
+rank 5: 3
+rank 5: 15
+
+BEFORE
+rank 6: 20
+rank 6: 14
+rank 6: 4
+rank 6: 20
+
+
+[0] buf = 10, 24, 3, 15, -1, 
+
+[1] buf = 20, 14, 4, 20, -1, 
+true_bufsize: 4, placeholder: 1
+
+
+[2] buf = 19, 7, 2, 23, 5, 
+true_bufsize: 5, placeholder: 0
+
+
+[3] buf = 16, 15, 23, 18, -1, 
+true_bufsize: 4, placeholder: 1
+
+
+[4] buf = 10, 6, 14, 1, -1, 
+true_bufsize: 4, placeholder: 1
+
+
+[5] buf = 1, 4, 13, 23, -1, 
+true_bufsize: 4, placeholder: 1
+
+
+[6] buf = 19, 1, 18, 12, -1, 
+true_bufsize: 4, placeholder: 1
+
+true_bufsize: 4, placeholder: 1
+
+AFTER
+rank 0: 10
+rank 0: 24
+rank 0: 3
+rank 0: 15
+
+AFTER
+rank 1: 20
+rank 1: 14
+rank 1: 4
+rank 1: 20
+
+AFTER
+rank 2: 19
+rank 2: 7
+rank 2: 2
+rank 2: 23
+rank 2: 5
+
+AFTER
+rank 3: 16
+rank 3: 15
+rank 3: 23
+rank 3: 18
+
+AFTER
+rank 4: 10
+rank 4: 6
+rank 4: 14
+rank 4: 1
+
+AFTER
+rank 5: 1
+rank 5: 4
+rank 5: 13
+rank 5: 23
+
+AFTER
+rank 6: 19
+rank 6: 1
+rank 6: 18
+rank 6: 12
+
+Iterations: 2
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 323415 RUNNING AT west7
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Segmentation fault (signal 11)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
