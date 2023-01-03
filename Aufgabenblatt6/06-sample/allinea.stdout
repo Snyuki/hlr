@@ -1,0 +1,2 @@
+The local tree node (ddt-treeserver) exited with error code 1.
+slurmstepd-west1: error: *** JOB 149844 ON west1 CANCELLED AT 2022-11-24T23:15:54 DUE TO TIME LIMIT ***
